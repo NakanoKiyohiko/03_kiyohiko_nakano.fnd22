@@ -1,0 +1,23 @@
+h1 {
+  text-align:center;
+  background-color: yellowgreen;
+  width: 300px;
+  margin: auto;
+}
+
+body {
+  background-color: black;
+}
+
+.picture {
+  text-align:right;
+}
+
+.picture img {
+  width: 130px;
+}
+
+.top {
+  background-color: aliceblue;
+  height:max-content;
+}
