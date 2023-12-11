@@ -6,18 +6,65 @@ h1 {
 }
 
 body {
+  background-color: white;
+}
+
+.window-frame {
   background-color: black;
+  height: 500px;
+  width: 700px;
+  margin: auto;
+  position: relative;
+  top: 20px;
 }
 
-.picture {
-  text-align:right;
+#crescentmoon {
+  width: 77px;
+  position: absolute;
+  top: 10px;
+  left: 600px;
 }
 
-.picture img {
-  width: 130px;
+#button {
+  position: absolute;
+  top: 400px;
+  left: 777px;
 }
 
-.top {
-  background-color: aliceblue;
-  height:max-content;
+#hanabidama-ref {
+  width: 20px;
+  position: absolute;
+  top: 100%;
+  left: 345px;
+}
+
+#hanabi-ref {
+  width: 200px;
+  position: absolute;
+  top: 100px;
+  left: 260px;
+  visibility: hidden;
+}
+
+#unexploded {
+  width: 30px;
+  position: absolute;
+  top: 200px;
+  left: 340px;
+  visibility: hidden;
+}
+
+#hanabidama-kana {
+  width: 100px;
+  position: absolute;
+  top: 100%;
+  left: 305px;
+}
+
+#hanabi-kana {
+  width: 400px;
+  position: absolute;
+  top: 40px;
+  left: 180px;
+  visibility: hidden;
 }
